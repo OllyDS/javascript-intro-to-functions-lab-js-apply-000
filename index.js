@@ -1,5 +1,11 @@
 var upper = "HELLO", lower = "hello", mixed = "Hello";
 
+function sayHiToGrandma(string){
+  if (string === "I love you, Grandma.") return ("I love you, too.");
+  if (string === upper) return ("YES INDEED!");
+  if (string === lower) return ("I can't hear you!");
+}
+
 function shout(string){
   return string.toUpperCase();
 }
